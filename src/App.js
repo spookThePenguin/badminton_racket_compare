@@ -13,7 +13,9 @@ const btnSuccess = `${btnBase} bg-green-600 text-white hover:bg-green-700 disabl
 function Header() {
   return (
     <header className="header">
-      <div className="logo-title">🏸 RacketCompare</div>
+      <div className="text-2xl font-bold flex items-center gap-2">
+        <span role="img" aria-label="badminton racket">🏸</span> RacketCompare
+      </div>
       <nav>
         <Link to="/">Home</Link>
         <Link to="/compare">Compare</Link>
