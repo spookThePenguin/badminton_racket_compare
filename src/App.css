@@ -1,3 +1,16 @@
+/* Remove the following custom dark background and text color */
+/* body, html {
+  background: #000 !important;
+  color: #fff;
+} */
+
+body {
+  background-image: url('/court.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .App {
   text-align: center;
 }
@@ -40,11 +53,20 @@
 /* RacketCompare App Styles */
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1rem 2rem;
   background: #f5f5f5;
   border-bottom: 1px solid #ddd;
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+}
+.header nav {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .logo-title {
   font-size: 1.5rem;
@@ -70,8 +92,31 @@ nav a:hover {
 .racket-select {
   margin-bottom: 1rem;
 }
-.racket-select label {
-  margin-right: 0.5rem;
+.racket-select label, label[for="brand-dropdown"] {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  text-align: center;
+  font-style: italic;
+}
+.racket-select select, #brand-dropdown {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #fff;
+  color: #222;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+.racket-select select:focus, #brand-dropdown:focus {
+  border-color: #1976d2;
+  box-shadow: 0 4px 16px rgba(25, 118, 210, 0.12);
+  outline: none;
 }
 .action-buttons button {
   margin-right: 1rem;
@@ -89,14 +134,18 @@ nav a:hover {
   background: #aaa;
   cursor: not-allowed;
 }
-/* .racket-detail-card {
+.racket-detail-card {
+  background: #fff;
+  color: #222;
   margin-top: 2rem;
   padding: 1.5rem;
   border: 1px solid #eee;
   border-radius: 8px;
-  background: #fafbfc;
   box-shadow: 0 1px 4px rgba(0,0,0,0.03);
-} */
+  max-width: 700px;
+  width: 100%;
+  word-break: break-word;
+}
 .racket-detail-card h3 {
   margin-top: 0;
 }
@@ -106,6 +155,8 @@ nav a:hover {
 }
 .racket-detail-card td {
   padding: 0.3rem 0.5rem;
+  word-break: break-word;
+  white-space: pre-line;
 }
 .racket-img {
   max-width: 180px;
@@ -156,4 +207,14 @@ nav a:hover {
 }
 .compare-table button:hover {
   background: #b71c1c;
+}
+
+.court-bg {
+  background-image: url('/court.png');
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 64px);
+  width: 100%;
+  background-color: #e6f9e6; /* very light green for fade effect */
 }

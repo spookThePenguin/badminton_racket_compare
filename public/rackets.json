@@ -1,24 +1,261 @@
 [
-    {
-      "id": "astrox-99",
-      "name": "Yonex Astrox 99",
-      "weight": "84g",
-      "gripSize": "G5",
-      "balance": "Head Heavy",
-      "playStyle": "Attack",
-      "flexibility": "Stiff",
-      "frameMaterial": "Carbon Fiber",
-      "image": "/images/astrox-99.jpg"
+  {
+    "id": "astrox-100zz",
+    "name": "Yonex Astrox 100ZZ",
+    "weight": {
+      "3U": "≈88 g",
+      "4U": "≈83 g"
     },
-    {
-      "id": "turbo-x90",
-      "name": "Li-Ning Turbo X90",
-      "weight": "86g",
-      "gripSize": "G4",
-      "balance": "Even",
-      "playStyle": "All-round",
-      "flexibility": "Medium",
-      "frameMaterial": "Graphite",
-      "image": "/images/turbo-x90.jpg"
-    }
-  ]
+    "gripSize": ["G4","G5","G6"],
+    "balance": "Head Heavy",
+    "playStyle": "Attack",
+    "flexibility": "Extra Stiff",
+    "frameMaterial": "HM Graphite / Namd / Tungsten / Black Micro Core / Nanometric",
+    "shaftMaterial": "HM Graphite / Namd",
+    "length": "10 mm longer (672 mm)",
+    "stringTension": {
+      "3U": "21‑29 lbs",
+      "4U": "20‑28 lbs"
+    },
+    "madeIn": "Japan",
+    "technologies": [
+      "Rotational Generator System",
+      "Aero+Box Frame",
+      "Solid Feel Core",
+      "Hyper Slim Shaft",
+      "Energy Boost Cap Plus",
+      "Built‑in T‑Joint",
+      "Black Micro Core",
+      "Namd",
+      "Nanometric",
+      "Isometric"
+    ],
+    "image": "/images/astrox-100zz.jpg"
+  },
+  {
+    "id": "arcsaber-11-pro",
+    "name": "Yonex ArcSaber 11 Pro",
+    "weight": {
+      "3U": "≈88 g (85‑89 g)",
+      "4U": "≈83 g (80‑84 g)"
+    },
+    "gripSize": ["G4","G5"],
+    "balance": "Even",
+    "playStyle": "All‑round / Control",
+    "flexibility": "Stiff",
+    "frameMaterial": "HM Graphite / Pocketing Booster",
+    "shaftMaterial": "HM Graphite / Super HMG / Ultra PE Fiber",
+    "length": "10 mm longer",
+    "stringTension": {
+      "3U": "20‑28 lbs",
+      "4U": "19‑27 lbs"
+    },
+    "madeIn": "Japan",
+    "technologies": [
+      "Isometric",
+      "Sonic Metal",
+      "Neo CS Carbon Nanotube",
+      "Super HMG",
+      "Ultra PE Fiber",
+      "New Built‑in T‑Joint",
+      "T‑Anchor",
+      "Energy Boost Cap Plus",
+      "Solid Feel Core"
+    ],
+    "image": "/images/arcsaber-11-pro.jpg"
+  },
+  {
+    "id": "duora-z-strike",
+    "name": "Yonex Duora Z Strike",
+    "weight": {
+      "3U": "≈88 g",
+      "2U": "≈93 g"
+    },
+    "gripSize": ["G4","G5"],
+    "balance": "Even",
+    "playStyle": "All‑round / Offense",
+    "flexibility": "Extra Stiff",
+    "frameMaterial": "HM Graphite / NANOMETRIC DR / Hyper‑MG",
+    "shaftMaterial": "HM Graphite / NANOMETRIC / EX‑HMG",
+    "length": "10 mm longer",
+    "stringTension": {
+      "3U": "20‑28 lbs",
+      "2U": "21‑29 lbs"
+    },
+    "madeIn": "Japan",
+    "technologies": [
+      "Dual Optimum System",
+      "Aero+Box Frame",
+      "Isometric",
+      "Solid Feel Core",
+      "New Built‑in T‑Joint",
+      "T‑ANCHOR",
+      "EX‑HMG",
+      "NANOMETRIC",
+      "NANOMETRIC DR"
+    ],
+    "image": "/images/duora-z-strike.jpg"
+  },
+  {
+    "id": "astrox-88d-pro",
+    "name": "Yonex Astrox 88D Pro",
+    "weight": {
+      "4U": "≈83 g",
+      "3U": "≈88 g"
+    },
+    "gripSize": ["G4","G5","G6"],
+    "balance": "Head Heavy",
+    "playStyle": "Offense",
+    "flexibility": "Stiff",
+    "frameMaterial": "HM Graphite / CFR / Tungsten",
+    "shaftMaterial": "HM Graphite / 2G‑Namd FLEX FORCE / Ultra PE Fiber",
+    "length": "10 mm longer",
+    "stringTension": {
+      "4U": "20‑28 lbs",
+      "3U": "21‑29 lbs"
+    },
+    "madeIn": "Japan",
+    "technologies": [
+      "Rotational Generator System",
+      "Isometric",
+      "Built‑in T‑Joint",
+      "Volume Cut Resin",
+      "Ultra Slim Shaft",
+      "Energy Boost Cap Plus",
+      "Power Assist Bumper",
+      "2G‑Namd Flex Force"
+    ],
+    "image": "/images/astrox-88d-pro.jpg"
+  },
+  {
+    "id": "astrox-88s",
+    "name": "Yonex Astrox 88S",
+    "weight": {
+      "4U": "≈83 g",
+      "3U": "≈88 g"
+    },
+    "gripSize": ["G4","G5","G6"],
+    "balance": "Head Light",
+    "playStyle": "Defense / Speed",
+    "flexibility": "Stiff",
+    "frameMaterial": "HM Graphite / CFR / Tungsten",
+    "shaftMaterial": "HM Graphite / 2G‑Namd FLEX FORCE / Ultra PE Fiber",
+    "length": "10 mm longer",
+    "stringTension": {
+      "4U": "20‑28 lbs",
+      "3U": "21‑29 lbs"
+    },
+    "madeIn": "Japan",
+    "technologies": [
+      "Rotational Generator System",
+      "Isometric",
+      "Built‑in T‑Joint",
+      "Volume Cut Resin",
+      "Ultra Slim Shaft",
+      "Energy Boost Cap Plus",
+      "Power Assist Bumper",
+      "2G‑Namd Flex Force"
+    ],
+    "image": "/images/astrox-88s.jpg"
+  },
+  {
+    "id": "astrox-99-pro",
+    "name": "Yonex Astrox 99 Pro",
+    "weight": {
+      "3U": "≈88 g",
+      "4U": "≈83 g"
+    },
+    "gripSize": ["G4","G5","G6"],
+    "balance": "Head Heavy",
+    "playStyle": "Attack",
+    "flexibility": "Stiff to Extra Stiff",
+    "frameMaterial": "HM Graphite / Namd / Tungsten / Black Micro Core / Nanometric",
+    "shaftMaterial": "HM Graphite / Namd",
+    "length": "10 mm longer",
+    "stringTension": {
+      "3U": "21‑29 lbs",
+      "4U": "20‑28 lbs"
+    },
+    "madeIn": "Japan",
+    "technologies": [
+      "Rotational Generator System",
+      "Isometric",
+      "Hyper Slim Shaft",
+      "Aero+Box Frame",
+      "Solid Feel Core",
+      "Energy Boost Cap Plus",
+      "Built‑in T‑Joint",
+      "Black Micro Core",
+      "Namd",
+      "Nanometric"
+    ],
+    "image": "/images/astrox-99-pro.jpg"
+  },
+  {
+    "id": "nanoflare-1000z",
+    "name": "Yonex Nanoflare 1000Z",
+    "weight": {
+      "4U": "≈83 g",
+      "3U": "≈88 g"
+    },
+    "gripSize": ["G4","G5","G6"],
+    "balance": "Head Light",
+    "playStyle": "Defensive / Speed",
+    "flexibility": "Extra Stiff",
+    "frameMaterial": "HM Graphite / NANOMETRIC DR / M40X / EX‑HYPER MG",
+    "shaftMaterial": "HM Graphite / Ultra PE Fiber",
+    "length": "10 mm longer",
+    "stringTension": {
+      "4U": "20‑28 lbs",
+      "3U": "21‑29 lbs"
+    },
+    "madeIn": "Japan",
+    "technologies": [
+      "Sonic Flare System",
+      "Enhanced Sonic Flare System",
+      "Isometric",
+      "Aero Frame",
+      "Aero‑Compact Frame",
+      "Solid Feel Core",
+      "Super Slim Shaft",
+      "Energy Boost Cap Plus",
+      "Torayca M40X",
+      "Nanometric DR",
+      "EX‑HYPER MG"
+    ],
+    "image": "/images/nanoflare-1000z.jpg"
+  },
+  {
+    "id": "nanoflare-800-pro",
+    "name": "Yonex Nanoflare 800 Pro",
+    "weight": {
+      "4U": "≈83 g",
+      "3U": "≈88 g"
+    },
+    "gripSize": ["G4","G5","G6"],
+    "balance": "Head Light",
+    "playStyle": "Control / Speed",
+    "flexibility": "Extra Stiff",
+    "frameMaterial": "HM Graphite / NANOMETRIC DR / M40X / EX‑HYPER MG",
+    "shaftMaterial": "HM Graphite / Ultra PE Fiber",
+    "length": "10 mm longer",
+    "stringTension": {
+      "4U": "20‑28 lbs",
+      "3U": "21‑29 lbs"
+    },
+    "madeIn": "Japan",
+    "technologies": [
+      "Sonic Flare System",
+      "Isometric",
+      "Aero Frame",
+      "Solid Feel Core",
+      "Super Slim Shaft",
+      "Energy Boost Cap Plus",
+      "Torayca M40X",
+      "Nanometric DR",
+      "EX‑HYPER MG"
+    ],
+    "image": "/images/nanoflare-800-pro.jpg"
+  }
+]
+  
