@@ -6,7 +6,7 @@ const mainBg = "min-h-screen bg-gray-900 text-white pb-24";
 const cardBg = "bg-gray-800";
 const cardBase = "rounded-xl shadow-lg";
 const mainPadding = "p-8";
-const mainContainer = `max-w-xl mx-auto mt-10 ${mainPadding} ${cardBg} ${cardBase}`;
+// const mainContainer = `max-w-xl mx-auto mt-10 ${mainPadding} ${cardBg} ${cardBase}`;
 const btnBase = "px-4 py-2 rounded font-semibold transition";
 const btnSuccess = `${btnBase} bg-green-600 text-white hover:bg-green-700 disabled:bg-gray-800 disabled:text-gray-400 disabled:cursor-not-allowed`;
 
