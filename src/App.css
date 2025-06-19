@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #bacde0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,125 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* RacketCompare App Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+.logo-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.landing-page main, .compare-page main {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.racket-select {
+  margin-bottom: 1rem;
+}
+.racket-select label {
+  margin-right: 0.5rem;
+}
+.action-buttons button {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background: #1976d2;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.action-buttons button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+/* .racket-detail-card {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fafbfc;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+} */
+.racket-detail-card h3 {
+  margin-top: 0;
+}
+.racket-detail-card table {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.racket-detail-card td {
+  padding: 0.3rem 0.5rem;
+}
+.racket-img {
+  max-width: 180px;
+  margin-top: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.floating-compare-btn {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  background: #43a047;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  cursor: pointer;
+  z-index: 1000;
+  transition: background 0.2s;
+}
+.floating-compare-btn:hover {
+  background: #388e3c;
+}
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+.compare-table th, .compare-table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem 0.7rem;
+  text-align: center;
+}
+.compare-table th {
+  background: #f0f0f0;
+}
+.compare-table button {
+  margin-left: 0.5rem;
+  background: #e53935;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 0.2rem 0.7rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.compare-table button:hover {
+  background: #b71c1c;
 }

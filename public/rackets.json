@@ -1,0 +1,24 @@
+[
+    {
+      "id": "astrox-99",
+      "name": "Yonex Astrox 99",
+      "weight": "84g",
+      "gripSize": "G5",
+      "balance": "Head Heavy",
+      "playStyle": "Attack",
+      "flexibility": "Stiff",
+      "frameMaterial": "Carbon Fiber",
+      "image": "/images/astrox-99.jpg"
+    },
+    {
+      "id": "turbo-x90",
+      "name": "Li-Ning Turbo X90",
+      "weight": "86g",
+      "gripSize": "G4",
+      "balance": "Even",
+      "playStyle": "All-round",
+      "flexibility": "Medium",
+      "frameMaterial": "Graphite",
+      "image": "/images/turbo-x90.jpg"
+    }
+  ]
